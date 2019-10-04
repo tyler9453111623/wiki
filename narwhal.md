@@ -46,6 +46,7 @@ https://zh.wikipedia.org/wiki/OSI%E6%A8%A1%E5%9E%8B
 ### 2. 协议
 
 #### 棋牌游戏协议是tcp（osi第四层）
+https://zh.wikipedia.org/wiki/%E4%BC%A0%E8%BE%93%E6%8E%A7%E5%88%B6%E5%8D%8F%E8%AE%AE
 
 #### web网站是http（osi第七层）
 HTTP是一个客户端（用户）和服务端（网站）之间请求和应答的标准，通常使用TCP协议。通过使用网页浏览器、网络爬虫或者其它的工具，客户端发起一个HTTP请求到服务器上指定端口（默认端口为80）。我们称这个客户端为用户代理程序（user agent）。应答的服务器上存储着一些资源，比如HTML文件和图像。我们称这个应答服务器为源服务器（origin server）。在用户代理和源服务器中间可能存在多个“中间层”，比如代理服务器、网关或者隧道（tunnel）。
@@ -53,9 +54,9 @@ HTTP是一个客户端（用户）和服务端（网站）之间请求和应答�
 ### 二、系统服务和安全
 
 #### 系统服务
-Windows server
-IIS
-sql server
+- Windows server（操作系统）
+- IIS（web应用）
+- sql server（数据库）
 
 #### 安全
 关于安全这块，建议可以参考阿里云的官方指引，需要88块的学费
