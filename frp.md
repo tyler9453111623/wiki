@@ -7,6 +7,10 @@
 https://www.cnblogs.com/zhanggaoxing/p/9221705.html
 
 
+## 下载
+https://github.com/fatedier/frp/releases
+
+
 配置文件
 
 ```bash
@@ -29,4 +33,10 @@ log_max_days = 3
 
 ```
 
+当前服务端的版本为0.13
+
+
+
+## 注意
+服务端和客户端的版本最好一致
 
