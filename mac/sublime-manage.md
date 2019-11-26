@@ -16,8 +16,11 @@ cmd+alt+f，   查找替换
 ⌘⌃上下键      两行交换位置
 
 
-## 主题颜色管理
+## 包管理
+首选项 -> package control
+Cmd + Shift + p 启用控制台 -> 输入：install package
 
+## 主题颜色管理
 Cmd + Shift + p 启用控制台 -> 输入：install package -> 输入：Colorsublime(所有主题) -> Esc退出
 Cmd + Shift + p 启用控制台 -> 输入：select color schema -> 方向键选择主题
 
