@@ -1,0 +1,23 @@
+{
+    "bold_folder_labels": true,
+/*    "color_scheme": "Packages/Colorsublime - Themes/cache/Colorsublime-Themes-master/themes/Dawn.tmTheme",*/
+    "draw_minimap_border": true,
+    "font_face": "Courier New",
+    "font_face": "微软雅黑",
+    "font_size": 15,
+    "highlight_line": true,
+    "ignored_packages":
+    [
+        "Vintage",
+        "Sublimerge Pro"
+    ],
+    "save_on_focus_lost": true,
+    "update_check": false,
+    "theme": "Default.sublime-theme",
+    "translate_tabs_to_spaces": true,
+    "trim_automatic_white_space": false,
+    "trim_trailing_white_space_on_save": false,
+    "update_check": false,
+    "word_separators": "/\\()\"':,;<>~!@#$%^&*|+=[]{}`~?",
+    "word_wrap": "true"
+}
