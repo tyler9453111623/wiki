@@ -15,6 +15,7 @@ cmd+shift+p,  包安装 > 输入：install package > 输入：packgeName
 cmd+alt+f，   查找替换  
 ⌘⌃上下键      两行交换位置  
 
+codeFormatter，ctrl+alt+f，格式美化
 
 ## 包管理
 
