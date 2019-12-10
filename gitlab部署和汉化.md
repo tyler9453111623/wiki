@@ -64,7 +64,7 @@ git clone https://gitlab.com/xhang/gitlab.git -b v12.2.0-zh
 cat gitlab/VERSION 
 
 # 备份源文件
-cp /opt/gitlab/embedded/service/gitlab-rails{,.ori}
+cp -r /opt/gitlab/embedded/service/gitlab-rails{,.ori}
 
 # 拷贝汉化文件覆盖
 \cp -R gitlab-11-2-stable-zh/* /opt/gitlab/embedded/service/gitlab-rails/

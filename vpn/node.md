@@ -44,4 +44,15 @@ Your Password         :  aabb1122
 Your Encryption Method:  aes-256-cfb
 ```
 
+## wangsu-hunan-yueyang
+```
+Congratulations, Shadowsocks-Go server install completed!
+Your Server IP        :  120.226.49.169
+Your Server Port      :  50000
+Your Password         :  aabb1122
+Your Encryption Method:  aes-256-cfb
+```
+
+
+
 
