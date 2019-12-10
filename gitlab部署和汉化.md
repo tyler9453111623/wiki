@@ -66,7 +66,7 @@ cat gitlab/VERSION
 # 备份源文件
 cp -r /opt/gitlab/embedded/service/gitlab-rails{,.ori}
 
-# 拷贝汉化文件覆盖
+# 拷贝汉化文件覆盖（此处有2个cannot overwrite报错，可以忽略）
 \cp -R gitlab/* /opt/gitlab/embedded/service/gitlab-rails/
 
 # 启动gitlab
