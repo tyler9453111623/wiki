@@ -67,7 +67,7 @@ cat gitlab/VERSION
 cp -r /opt/gitlab/embedded/service/gitlab-rails{,.ori}
 
 # 拷贝汉化文件覆盖
-\cp -R gitlab-11-2-stable-zh/* /opt/gitlab/embedded/service/gitlab-rails/
+\cp -R gitlab/* /opt/gitlab/embedded/service/gitlab-rails/
 
 # 启动gitlab
 gitlab-ctl start
