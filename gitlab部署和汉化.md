@@ -1,8 +1,8 @@
 
 ## gitlab 登录凭证
-地址： http://gitlab.godeng.com/users/sign_in  
+地址： http://gitlab.example.com/users/sign_in  
 用户： root  
-密码： bkuKUoTR1mNI1sLtARwW  
+密码： xxxxxx  
 
 
 ## 安装gitlab的依赖项
@@ -44,7 +44,6 @@ vim /etc/gitlab/gitlab.rb
 ```
 
 
-
 ## 汉化
 
 ```bash
@@ -55,7 +54,7 @@ yum install -y git
 head -1 /opt/gitlab/version-manifest.txt
 
 # 下载对应gitlab版本的汉化包
-git clone https://gitlab.com/xhang/gitlab.git
+# git clone https://gitlab.com/xhang/gitlab.git
 
 #  如果是要下载老版本的汉化包，需要加上老版本的分支
 git clone https://gitlab.com/xhang/gitlab.git -b v12.2.0-zh

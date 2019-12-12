@@ -1,8 +1,4 @@
 
-## frp server
-47.244.78.102
-
-
 ## 参考
 https://www.cnblogs.com/zhanggaoxing/p/9221705.html
 
@@ -18,9 +14,9 @@ https://github.com/fatedier/frp/releases
 [common]
 bind_port = 7000
 vhost_http_port = 28088
-subdomain_host = frp.godeng.com
+subdomain_host = frp.example.com
 # 这里是为了安全的考虑，加入一个身份认证的 token 配置，这里只要服务端和客户端配置一致即可
-#privilege_token = tony666
+#privilege_token = token_string
 
 dashboard_port = 7500
 dashboard_user = admin

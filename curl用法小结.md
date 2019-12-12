@@ -32,7 +32,7 @@ curl -H "Content-Type:application/json" -X POST --data '{"message": "sunshine"}'
 curl --cookie "name1=value1" http://www.example.com
 
 # 保存cookie
-curl --cookie-jar cookie.txt "http://47.112.116.118:8696/pay/callback/deshinew/2701"
+curl --cookie-jar cookie.txt "http://ip:port/pay/callback/deshinew/2701"
 
 ```
 
