@@ -2,7 +2,7 @@
 ### host设置
 
 ```bash
-curl -u opsweb:Ltsj666 -H 'host:www.baidu.com' "http://47.74.43.242:10086/"
+curl -u username:password -H 'host:www.baidu.com' "http://47.74.43.242:10086/"
 
 ```
 
@@ -20,7 +20,7 @@ curl -H "Content-Type:application/json" -X POST --data '{"message": "sunshine"}'
 ### web验证
 
 ```bash
-[ronny@MacPro2018.local:~]$ curl -u opsweb:Ltsj666 -I http://47.74.43.242:10086/
+[ronny@MacPro2018.local:~]$ curl -u username:password -I http://47.74.43.242:10086/
 
 ```
 

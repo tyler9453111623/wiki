@@ -118,6 +118,8 @@ sudo systemctl status openvpn@server.service
 # 关闭vpn
 sudo systemctl stop openvpn@server.service
 
+# 重启vpn
+sudo systemctl restart openvpn@server.service
 
 ```
 
@@ -170,3 +172,40 @@ verb 3
 nohup sudo /usr/local/sbin/openvpn /etc/openvpn/client.opvn &
 
 ```
+
+
+## 四、pam认证
+
+参考
+https://blog.csdn.net/weixin_42758707/article/details/94738684
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
