@@ -135,7 +135,7 @@ sudo yum -y install pam-devel openssl-devel lzo-devel
 # 编译安装openvpn
 wget https://build.openvpn.net/downloads/releases/openvpn-2.4.8.tar.gz
 tar xvf openvpn-2.4.8.tar.gz
-cd openvpn-2.4.8 && ./configure && make && make install
+cd openvpn-2.4.8 && ./configure && make && sudo make install
 sudo ldconfig
 
 # 证书准备
