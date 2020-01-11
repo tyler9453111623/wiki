@@ -6,18 +6,25 @@
 ```bash
 # 更新yum为最新版
 sudo yum update -y
+
 # 安装所需环境
 sudo yum install epel-release -y
+
 # 安装openvpn,以及wget网络下载工具
 sudo yum install -y openvpn wget
+
 # 下载easy-rsa秘钥生成工具
 wget -O /tmp/easyrsa https://github.com/OpenVPN/easy-rsa-old/archive/2.3.3.tar.gz
+
 # 解压easy-rsa秘钥生成工具
 tar xfz /tmp/easyrsa
+
 # 新建一个easy-rsa 文件夹
 sudo mkdir /etc/openvpn/easy-rsa
+
 # 将解压的文件都拷贝到自建的easy-rsa中
 sudo cp -rf easy-rsa-old-2.3.3/easy-rsa/2.0/* /etc/openvpn/easy-rsa
+
 # 给 ops 用户授权,如果您是root可以忽略本步
 sudo chown ops:ops /etc/openvpn/easy-rsa/
 
@@ -87,6 +94,7 @@ source ./vars
 # 生成ta.key
 openvpn --genkey --secret /etc/openvpn/easy-rsa/keys/ta.key
 sudo cp /etc/openvpn/easy-rsa/keys/ta.key /etc/openvpn/certs/
+
 # 将认证的文件拷贝到keys中
 cd /etc/openvpn/easy-rsa/keys
 sudo cp dh2048.pem ca.crt server.crt server.key /etc/openvpn/certs
